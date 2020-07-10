@@ -69,7 +69,7 @@
             // 
             // pb_device4
             // 
-            this.pb_device4.Image = global::GroundMonitor.Properties.Resources.green;
+            this.pb_device4.Image = global::GroundMonitor.Properties.Resources.red;
             this.pb_device4.Location = new System.Drawing.Point(637, 66);
             this.pb_device4.Name = "pb_device4";
             this.pb_device4.Size = new System.Drawing.Size(51, 54);
@@ -78,7 +78,7 @@
             // 
             // pb_device3
             // 
-            this.pb_device3.Image = global::GroundMonitor.Properties.Resources.green;
+            this.pb_device3.Image = global::GroundMonitor.Properties.Resources.red;
             this.pb_device3.Location = new System.Drawing.Point(460, 66);
             this.pb_device3.Name = "pb_device3";
             this.pb_device3.Size = new System.Drawing.Size(51, 54);
@@ -87,7 +87,7 @@
             // 
             // pb_device2
             // 
-            this.pb_device2.Image = global::GroundMonitor.Properties.Resources.green;
+            this.pb_device2.Image = global::GroundMonitor.Properties.Resources.red;
             this.pb_device2.Location = new System.Drawing.Point(289, 66);
             this.pb_device2.Name = "pb_device2";
             this.pb_device2.Size = new System.Drawing.Size(51, 54);
@@ -96,7 +96,7 @@
             // 
             // pb_device1
             // 
-            this.pb_device1.Image = global::GroundMonitor.Properties.Resources.green;
+            this.pb_device1.Image = global::GroundMonitor.Properties.Resources.red;
             this.pb_device1.Location = new System.Drawing.Point(119, 66);
             this.pb_device1.Name = "pb_device1";
             this.pb_device1.Size = new System.Drawing.Size(51, 54);

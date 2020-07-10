@@ -40,7 +40,7 @@ namespace GroundMonitor
             }
 
             Devices = new PictureBox[4] { pb_device1, pb_device2, pb_device3, pb_device4 };
-            DeviceStatus = new bool[4] { true, true, true, true };
+            DeviceStatus = new bool[4] { false, false, false, false };
             client = new TcpClient();
 
             _thread_recieve = new Thread(Recieve);
@@ -109,10 +109,11 @@ namespace GroundMonitor
                     if (buf[i] == 0xa5 && buf[i + 1] == 0x5a)
                     {
                         var index = buf[i + 9];
-                        var status = buf[10] == 0x01;
-
-                        UpdateStatus(index, status);
-
+                        var status = buf[i + 10] == 0x01;
+                        if (index >= 1 && index <= 4)
+                        {
+                            UpdateStatus(index, status);
+                        }
                     }
                 }
             }
